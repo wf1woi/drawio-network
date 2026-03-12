@@ -1,0 +1,118 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.6.1">
+  <diagram name="AI发展代际演进示意图" id="h-QI1C6-bS9F-GMQydwW">
+    <mxGraphModel dx="2183" dy="963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bWfFV29Gd1WzGgcMj802-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FCFCFD;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="760" width="2000" as="geometry" />
+        </mxCell>
+        <mxCell id="bWfFV29Gd1WzGgcMj802-2" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;strokeColor=none;fillColor=none;" value="&lt;div style=&#39;font-family:Helvetica;&#39;&gt;&lt;div style=&#39;font-size:28px;font-weight:700;color:#111827;&#39;&gt;AI 发展代际演进示意图&lt;/div&gt;&lt;div style=&#39;font-size:14px;color:#667085;margin-top:6px;&#39;&gt;面向小白用户理解：从“会聊天”到“会调用工具”，再到“会编排流程、会操作电脑、可常驻自治”，最终走向闭环与具身智能&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="1600" x="80" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bWfFV29Gd1WzGgcMj802-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;fillColor=#F9FAFB;strokeColor=#D0D5DD;fontSize=13;" value="&lt;div style=&#39;font-family:Helvetica;font-size:13px;line-height:1.4;&#39;&gt;&lt;b&gt;主线变化：&lt;/b&gt;被动回答 → 能接工具 → 能做流程 → 能操作 GUI → 能常驻运行 → 走向闭环具身&lt;/div&gt;" vertex="1">
+          <mxGeometry height="42" width="1810" x="80" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="bWfFV29Gd1WzGgcMj802-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#98A2B3;strokeColor=#98A2B3;" value="" vertex="1">
+          <mxGeometry height="6" width="1710" x="130" y="473" as="geometry" />
+        </mxCell>
+        <mxCell id="bWfFV29Gd1WzGgcMj802-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=16;shadow=1;fillColor=#E8F0FE;strokeColor=#5B8FF9;strokeWidth=2;fontSize=12;align=left;verticalAlign=top;spacing=14;" value="&lt;div style=&#39;font-family:Helvetica;line-height:1.35;&#39;&gt;&lt;div style=&#39;font-size:16px;font-weight:700;color:#111827;&#39;&gt;第 0 代（2022 年底）&lt;/div&gt;&lt;div style=&#39;display:inline-block;margin-top:8px;padding:4px 10px;border-radius:999px;background:#E8F0FE;border:1px solid rgba(0,0,0,0.08);font-size:12px;font-weight:700;color:#111827;&#39;&gt;被动响应&lt;/div&gt;&lt;div style=&#39;font-size:12px;color:#334155;margin-top:10px;&#39;&gt;&lt;div style=&#39;margin-top:6px;&#39;&gt;• 代表：ChatGPT / Prompt Engineering&lt;/div&gt;&lt;div style=&#39;margin-top:6px;&#39;&gt;• 定位：静态知识预言机&lt;/div&gt;&lt;div style=&#39;margin-top:6px;&#39;&gt;• 能力：能回答、能生成，但不会主动执行&lt;/div&gt;&lt;div style=&#39;margin-top:6px;&#39;&gt;• 边界：无法感知实时世界，缺乏行动能力&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="210" width="250" x="80" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="bWfFV29Gd1WzGgcMj802-6" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#5B8FF9;strokeColor=#ffffff;strokeWidth=3;" value="" vertex="1">
+          <mxGeometry height="18" width="18" x="196" y="467" as="geometry" />
+        </mxCell>
+        <mxCell id="bWfFV29Gd1WzGgcMj802-7" edge="1" parent="1" source="bWfFV29Gd1WzGgcMj802-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#5B8FF9;strokeWidth=2;endArrow=none;" target="bWfFV29Gd1WzGgcMj802-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bWfFV29Gd1WzGgcMj802-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=16;shadow=1;fillColor=#EAF7EE;strokeColor=#52C41A;strokeWidth=2;fontSize=12;align=left;verticalAlign=top;spacing=14;" value="&lt;div style=&#39;font-family:Helvetica;line-height:1.35;&#39;&gt;&lt;div style=&#39;font-size:16px;font-weight:700;color:#111827;&#39;&gt;第 1 代（2023 年中）&lt;/div&gt;&lt;div style=&#39;display:inline-block;margin-top:8px;padding:4px 10px;border-radius:999px;background:#EAF7EE;border:1px solid rgba(0,0,0,0.08);font-size:12px;font-weight:700;color:#111827;&#39;&gt;工具觉醒&lt;/div&gt;&lt;div style=&#39;font-size:12px;color:#334155;margin-top:10px;&#39;&gt;&lt;div style=&#39;margin-top:6px;&#39;&gt;• 关键：Function Calling + RAG&lt;/div&gt;&lt;div style=&#39;margin-top:6px;&#39;&gt;• 提升：接入外部 API、外部知识&lt;/div&gt;&lt;div style=&#39;margin-top:6px;&#39;&gt;• 意义：AI 开始拥有“执行四肢”和“外部记忆”&lt;/div&gt;&lt;div style=&#39;margin-top:6px;&#39;&gt;• 边界：早期 AutoGPT 易循环、规划不稳定&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="210" width="250" x="390" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="bWfFV29Gd1WzGgcMj802-10" edge="1" parent="1" source="bWfFV29Gd1WzGgcMj802-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#52C41A;strokeWidth=2;endArrow=none;" target="bWfFV29Gd1WzGgcMj802-9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bWfFV29Gd1WzGgcMj802-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=16;shadow=1;fillColor=#FFF7E8;strokeColor=#FA8C16;strokeWidth=2;fontSize=12;align=left;verticalAlign=top;spacing=14;" value="&lt;div style=&#39;font-family:Helvetica;line-height:1.35;&#39;&gt;&lt;div style=&#39;font-size:16px;font-weight:700;color:#111827;&#39;&gt;第 2 代（2023 年底）&lt;/div&gt;&lt;div style=&#39;display:inline-block;margin-top:8px;padding:4px 10px;border-radius:999px;background:#FFF7E8;border:1px solid rgba(0,0,0,0.08);font-size:12px;font-weight:700;color:#111827;&#39;&gt;工程化编排&lt;/div&gt;&lt;div style=&#39;font-size:12px;color:#334155;margin-top:10px;&#39;&gt;&lt;div style=&#39;margin-top:6px;&#39;&gt;• 关键：ReAct、多智能体、DAG 流程&lt;/div&gt;&lt;div style=&#39;margin-top:6px;&#39;&gt;• 代表：Coze / Dify 等低代码平台&lt;/div&gt;&lt;div style=&#39;margin-top:6px;&#39;&gt;• 提升：从混乱自治走向可控流程&lt;/div&gt;&lt;div style=&#39;margin-top:6px;&#39;&gt;• 价值：门槛更低，工程稳定性更强&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="210" width="250" x="700" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="bWfFV29Gd1WzGgcMj802-13" edge="1" parent="1" source="bWfFV29Gd1WzGgcMj802-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FA8C16;strokeWidth=2;endArrow=none;" target="bWfFV29Gd1WzGgcMj802-12" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bWfFV29Gd1WzGgcMj802-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=16;shadow=1;fillColor=#F9F0FF;strokeColor=#9254DE;strokeWidth=2;fontSize=12;align=left;verticalAlign=top;spacing=14;" value="&lt;div style=&#39;font-family:Helvetica;line-height:1.35;&#39;&gt;&lt;div style=&#39;font-size:16px;font-weight:700;color:#111827;&#39;&gt;第 3 代（2024 年底）&lt;/div&gt;&lt;div style=&#39;display:inline-block;margin-top:8px;padding:4px 10px;border-radius:999px;background:#F9F0FF;border:1px solid rgba(0,0,0,0.08);font-size:12px;font-weight:700;color:#111827;&#39;&gt;标准化与多模态&lt;/div&gt;&lt;div style=&#39;font-size:12px;color:#334155;margin-top:10px;&#39;&gt;&lt;div style=&#39;margin-top:6px;&#39;&gt;• 关键：MCP + Computer Use&lt;/div&gt;&lt;div style=&#39;margin-top:6px;&#39;&gt;• 提升：统一集成协议，可操作屏幕/鼠标/键盘&lt;/div&gt;&lt;div style=&#39;margin-top:6px;&#39;&gt;• 代表：Cursor 等 AI 编程工具&lt;/div&gt;&lt;div style=&#39;margin-top:6px;&#39;&gt;• 现象：Vibe Coding 开始普及&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="210" width="250" x="1010" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="bWfFV29Gd1WzGgcMj802-16" edge="1" parent="1" source="bWfFV29Gd1WzGgcMj802-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#9254DE;strokeWidth=2;endArrow=none;" target="bWfFV29Gd1WzGgcMj802-15" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bWfFV29Gd1WzGgcMj802-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=16;shadow=1;fillColor=#FFF1F0;strokeColor=#F5222D;strokeWidth=2;fontSize=12;align=left;verticalAlign=top;spacing=14;" value="&lt;div style=&#39;font-family:Helvetica;line-height:1.35;&#39;&gt;&lt;div style=&#39;font-size:16px;font-weight:700;color:#111827;&#39;&gt;第 4 代（2025 年底）&lt;/div&gt;&lt;div style=&#39;display:inline-block;margin-top:8px;padding:4px 10px;border-radius:999px;background:#FFF1F0;border:1px solid rgba(0,0,0,0.08);font-size:12px;font-weight:700;color:#111827;&#39;&gt;常驻自治&lt;/div&gt;&lt;div style=&#39;font-size:12px;color:#334155;margin-top:10px;&#39;&gt;&lt;div style=&#39;margin-top:6px;&#39;&gt;• 关键：Agent Skills + Heartbeat&lt;/div&gt;&lt;div style=&#39;margin-top:6px;&#39;&gt;• 代表：OpenClaw / Moltbook 等&lt;/div&gt;&lt;div style=&#39;margin-top:6px;&#39;&gt;• 提升：24 小时后台运行，具备持续状态&lt;/div&gt;&lt;div style=&#39;margin-top:6px;&#39;&gt;• 特点：更像有边界、有记忆的数字实体&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="210" width="250" x="1320" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="bWfFV29Gd1WzGgcMj802-19" edge="1" parent="1" source="bWfFV29Gd1WzGgcMj802-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#F5222D;strokeWidth=2;endArrow=none;" target="bWfFV29Gd1WzGgcMj802-18" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bWfFV29Gd1WzGgcMj802-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=16;shadow=1;fillColor=#F6FFED;strokeColor=#73D13D;strokeWidth=2;fontSize=12;align=left;verticalAlign=top;spacing=14;" value="&lt;div style=&#39;font-family:Helvetica;line-height:1.35;&#39;&gt;&lt;div style=&#39;font-size:16px;font-weight:700;color:#111827;&#39;&gt;第 5 代（前瞻）&lt;/div&gt;&lt;div style=&#39;display:inline-block;margin-top:8px;padding:4px 10px;border-radius:999px;background:#F6FFED;border:1px solid rgba(0,0,0,0.08);font-size:12px;font-weight:700;color:#111827;&#39;&gt;闭环与具身&lt;/div&gt;&lt;div style=&#39;font-size:12px;color:#334155;margin-top:10px;&#39;&gt;&lt;div style=&#39;margin-top:6px;&#39;&gt;• 方向：内建记忆、预测能力、世界模型&lt;/div&gt;&lt;div style=&#39;margin-top:6px;&#39;&gt;• 趋势：从数字空间走向物理机器人&lt;/div&gt;&lt;div style=&#39;margin-top:6px;&#39;&gt;• 目标：感知 → 决策 → 执行 → 反馈闭环&lt;/div&gt;&lt;div style=&#39;margin-top:6px;&#39;&gt;• 意义：真正具备长期自主性&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="210" width="250" x="1630" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="bWfFV29Gd1WzGgcMj802-22" edge="1" parent="1" source="bWfFV29Gd1WzGgcMj802-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#73D13D;strokeWidth=2;endArrow=none;" target="bWfFV29Gd1WzGgcMj802-21" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bWfFV29Gd1WzGgcMj802-23" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#98A2B3;strokeWidth=2.5;endArrow=block;endFill=1;endSize=10;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="217" y="476" as="sourcePoint" />
+            <mxPoint x="516" y="476" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bWfFV29Gd1WzGgcMj802-24" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#98A2B3;strokeWidth=2.5;endArrow=block;endFill=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="476" as="sourcePoint" />
+            <mxPoint x="824" y="476" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bWfFV29Gd1WzGgcMj802-25" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#98A2B3;strokeWidth=2.5;endArrow=block;endFill=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="840" y="476" as="sourcePoint" />
+            <mxPoint x="1134" y="476" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bWfFV29Gd1WzGgcMj802-26" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#98A2B3;strokeWidth=2.5;endArrow=block;endFill=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1150" y="476" as="sourcePoint" />
+            <mxPoint x="1445" y="476" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bWfFV29Gd1WzGgcMj802-27" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#98A2B3;strokeWidth=2.5;endArrow=block;endFill=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1460" y="476" as="sourcePoint" />
+            <mxPoint x="1754" y="476" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bWfFV29Gd1WzGgcMj802-28" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;shadow=0;fillColor=#F8FAFC;strokeColor=#D0D5DD;fontSize=12;align=left;verticalAlign=top;spacing=12;" value="&lt;div style=&#39;font-family:Helvetica;&#39;&gt;&lt;div style=&#39;font-size:14px;font-weight:700;color:#111827;&#39;&gt;能力变化&lt;/div&gt;&lt;div style=&#39;font-size:12px;color:#475467;margin-top:8px;line-height:1.45;&#39;&gt;从“只能回答”演进到“能理解、能调用、能执行、能持续运行”&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="86" width="580" x="80" y="545" as="geometry" />
+        </mxCell>
+        <mxCell id="bWfFV29Gd1WzGgcMj802-29" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;shadow=0;fillColor=#F8FAFC;strokeColor=#D0D5DD;fontSize=12;align=left;verticalAlign=top;spacing=12;" value="&lt;div style=&#39;font-family:Helvetica;&#39;&gt;&lt;div style=&#39;font-size:14px;font-weight:700;color:#111827;&#39;&gt;对开发者意味着什么&lt;/div&gt;&lt;div style=&#39;font-size:12px;color:#475467;margin-top:8px;line-height:1.45;&#39;&gt;开发门槛持续下降：从写提示词，到接 API，再到拖流程、自然语言生成代码、封装技能&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="86" width="580" x="700" y="545" as="geometry" />
+        </mxCell>
+        <mxCell id="bWfFV29Gd1WzGgcMj802-30" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;shadow=0;fillColor=#F8FAFC;strokeColor=#D0D5DD;fontSize=12;align=left;verticalAlign=top;spacing=12;" value="&lt;div style=&quot;font-family:Helvetica;&quot;&gt;&lt;div style=&quot;font-size: 14px; font-weight: 700; color: rgb(17, 24, 39);&quot;&gt;对普通用户的启发&lt;/div&gt;&lt;div style=&quot;font-size: 12px; color: rgb(71, 84, 103); margin-top: 8px; line-height: 1.45;&quot;&gt;现在做小工具/小应用，不一定先学完所有编程；先学会“描述需求、拆步骤、验结果”更重要&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="86" width="580" x="1310" y="545" as="geometry" />
+        </mxCell>
+        <mxCell id="bWfFV29Gd1WzGgcMj802-31" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#FFFAEB;strokeColor=#F79009;fontSize=12;align=left;verticalAlign=top;spacing=12;" value="&lt;div style=&#39;font-family:Helvetica;font-size:12px;line-height:1.45;color:#344054;&#39;&gt;&lt;b&gt;建议讲法：&lt;/b&gt;&lt;br/&gt;1. 第 0 代：AI 会说，但不会做。&lt;br/&gt;2. 第 1~2 代：AI 开始会查、会调工具、会走流程。&lt;br/&gt;3. 第 3~4 代：AI 不只是聊天，而是开始像“数字员工”。&lt;br/&gt;4. 第 5 代：最终目标是形成感知—决策—执行闭环。&lt;/div&gt;" vertex="1">
+          <mxGeometry height="125" width="180" x="2120" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bWfFV29Gd1WzGgcMj802-9" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#52C41A;strokeColor=#ffffff;strokeWidth=3;" value="" vertex="1">
+          <mxGeometry height="18" width="18" x="506" y="467" as="geometry" />
+        </mxCell>
+        <mxCell id="bWfFV29Gd1WzGgcMj802-12" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FA8C16;strokeColor=#ffffff;strokeWidth=3;" value="" vertex="1">
+          <mxGeometry height="18" width="18" x="816" y="467" as="geometry" />
+        </mxCell>
+        <mxCell id="bWfFV29Gd1WzGgcMj802-15" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#9254DE;strokeColor=#ffffff;strokeWidth=3;" value="" vertex="1">
+          <mxGeometry height="18" width="18" x="1126" y="467" as="geometry" />
+        </mxCell>
+        <mxCell id="bWfFV29Gd1WzGgcMj802-18" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F5222D;strokeColor=#ffffff;strokeWidth=3;" value="" vertex="1">
+          <mxGeometry height="18" width="18" x="1436" y="467" as="geometry" />
+        </mxCell>
+        <mxCell id="bWfFV29Gd1WzGgcMj802-21" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#73D13D;strokeColor=#ffffff;strokeWidth=3;" value="" vertex="1">
+          <mxGeometry height="18" width="18" x="1746" y="467" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
