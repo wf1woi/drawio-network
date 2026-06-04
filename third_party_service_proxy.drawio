@@ -1,0 +1,297 @@
+<mxfile host="app.diagrams.net" agent="ChatGPT" pages="2">
+  <diagram id="clean_page_1" name="01 领导视角总览">
+    <mxGraphModel dx="2061" dy="1011" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bg1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8fafc;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="900" width="1600" as="geometry" />
+        </mxCell>
+        <mxCell id="bar1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0f172a;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="104" width="1600" as="geometry" />
+        </mxCell>
+        <mxCell id="title1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;fontSize=28;fontColor=#ffffff;align=left;verticalAlign=middle;fontStyle=1;" value="第三方服务代理：企业多系统 API 统一接入底座" vertex="1">
+          <mxGeometry height="40" width="950" x="64" y="24" as="geometry" />
+        </mxCell>
+        <mxCell id="sub1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;fontSize=14;fontColor=#cbd5e1;align=left;verticalAlign=middle;" value="把零散第三方接口收口到 A 系统，由平台统一完成调用入口、权限、认证、字段注入、缓存重试与审计" vertex="1">
+          <mxGeometry height="26" width="1050" x="66" y="64" as="geometry" />
+        </mxCell>
+        <mxCell id="dept1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;fontSize=13;fontColor=#cbd5e1;align=right;verticalAlign=middle;fontStyle=1;" value="服务事业群｜信息管理中心｜系统管理部" vertex="1">
+          <mxGeometry height="24" width="350" x="1180" y="29" as="geometry" />
+        </mxCell>
+        <mxCell id="month1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;fontSize=12;fontColor=#94a3b8;align=right;verticalAlign=middle;" value="月度工作汇报 · 第三方服务代理" vertex="1">
+          <mxGeometry height="22" width="350" x="1180" y="59" as="geometry" />
+        </mxCell>
+        <mxCell id="leftPanel" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=16;strokeColor=#e2e8f0;fillColor=#ffffff;strokeWidth=1.2;fontSize=14;fontColor=#0f172a;align=left;verticalAlign=top;spacing=10;spacingTop=6;spacingLeft=10;spacingRight=10;" value="" vertex="1">
+          <mxGeometry height="495" width="300" x="64" y="145" as="geometry" />
+        </mxCell>
+        <mxCell id="centerPanel" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=16;strokeColor=#bfdbfe;fillColor=#f8fbff;strokeWidth=1.8;fontSize=14;fontColor=#0f172a;align=left;verticalAlign=top;spacing=10;spacingTop=6;spacingLeft=10;spacingRight=10;" value="" vertex="1">
+          <mxGeometry height="515" width="760" x="420" y="135" as="geometry" />
+        </mxCell>
+        <mxCell id="rightPanel" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=16;strokeColor=#e2e8f0;fillColor=#ffffff;strokeWidth=1.2;fontSize=14;fontColor=#0f172a;align=left;verticalAlign=top;spacing=10;spacingTop=6;spacingLeft=10;spacingRight=10;" value="" vertex="1">
+          <mxGeometry height="495" width="300" x="1236" y="145" as="geometry" />
+        </mxCell>
+        <mxCell id="lHead" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;fontSize=24;fontColor=#0f172a;align=left;verticalAlign=middle;fontStyle=1;" value="调用方" vertex="1">
+          <mxGeometry height="32" width="180" x="92" y="164" as="geometry" />
+        </mxCell>
+        <mxCell id="lSub" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;fontSize=13;fontColor=#64748b;align=left;verticalAlign=middle;" value="统一只调用 A 系统代理地址" vertex="1">
+          <mxGeometry height="22" width="220" x="92" y="197" as="geometry" />
+        </mxCell>
+        <mxCell id="actor1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;strokeColor=#e2e8f0;fillColor=#f8fafc;strokeWidth=1.0;fontSize=13;fontColor=#334155;align=left;verticalAlign=middle;spacing=10;spacingTop=6;spacingLeft=10;spacingRight=10;" value="&lt;b&gt;业务系统&lt;/b&gt;&lt;br&gt;内部系统间接口集成" vertex="1">
+          <mxGeometry height="62" width="244" x="92" y="252" as="geometry" />
+        </mxCell>
+        <mxCell id="actor2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;strokeColor=#e2e8f0;fillColor=#f8fafc;strokeWidth=1.0;fontSize=13;fontColor=#334155;align=left;verticalAlign=middle;spacing=10;spacingTop=6;spacingLeft=10;spacingRight=10;" value="&lt;b&gt;AI Agent / Skill&lt;/b&gt;&lt;br&gt;工具能力通过代理服务调用" vertex="1">
+          <mxGeometry height="62" width="244" x="92" y="328" as="geometry" />
+        </mxCell>
+        <mxCell id="actor3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;strokeColor=#e2e8f0;fillColor=#f8fafc;strokeWidth=1.0;fontSize=13;fontColor=#334155;align=left;verticalAlign=middle;spacing=10;spacingTop=6;spacingLeft=10;spacingRight=10;" value="&lt;b&gt;低代码小应用&lt;/b&gt;&lt;br&gt;复用统一代理接口" vertex="1">
+          <mxGeometry height="62" width="244" x="92" y="404" as="geometry" />
+        </mxCell>
+        <mxCell id="actor4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;strokeColor=#e2e8f0;fillColor=#f8fafc;strokeWidth=1.0;fontSize=13;fontColor=#334155;align=left;verticalAlign=middle;spacing=10;spacingTop=6;spacingLeft=10;spacingRight=10;" value="&lt;b&gt;开发脚本 / CLI&lt;/b&gt;&lt;br&gt;临时脚本不直连第三方" vertex="1">
+          <mxGeometry height="62" width="244" x="92" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="tokenChip" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=14;strokeColor=#a5f3fc;fillColor=#ecfeff;strokeWidth=1;fontSize=14;fontColor=#0e7490;align=center;verticalAlign=middle;spacing=10;spacingTop=6;spacingLeft=10;spacingRight=10;" value="Bearer A 系统 API Token" vertex="1">
+          <mxGeometry height="42" width="244" x="92" y="565" as="geometry" />
+        </mxCell>
+        <mxCell id="cHead" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;fontSize=25;fontColor=#0f172a;align=left;verticalAlign=middle;fontStyle=1;" value="A 系统：统一 API 代理中枢" vertex="1">
+          <mxGeometry height="32" width="400" x="458" y="158" as="geometry" />
+        </mxCell>
+        <mxCell id="apiPath" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;fontSize=15;fontColor=#2563eb;align=left;verticalAlign=middle;fontStyle=1;" value="/api/proxy/{serviceCode}/{apiSuffix}" vertex="1">
+          <mxGeometry height="24" width="360" x="458" y="193" as="geometry" />
+        </mxCell>
+        <mxCell id="entry" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=14;strokeColor=#bfdbfe;fillColor=#ffffff;strokeWidth=1.2;fontSize=14;fontColor=#475569;align=left;verticalAlign=middle;spacing=10;spacingTop=6;spacingLeft=10;spacingRight=10;" value="&lt;b&gt;统一代理入口&lt;/b&gt;&lt;br&gt;调用方不接触第三方真实地址、密钥、Token、Cookie 和重试细节" vertex="1">
+          <mxGeometry height="72" width="684" x="458" y="232" as="geometry" />
+        </mxCell>
+        <mxCell id="m01" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;strokeColor=#e2e8f0;fillColor=#ffffff;strokeWidth=1;fontSize=13;fontColor=#334155;align=left;verticalAlign=middle;spacing=10;spacingTop=6;spacingLeft=10;spacingRight=10;" value="&lt;b&gt;路由 / 配置中心&lt;/b&gt;&lt;br&gt;按服务标识和 API 后缀定位真实接口" vertex="1">
+          <mxGeometry height="68" width="318" x="458" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="m02" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;strokeColor=#e2e8f0;fillColor=#ffffff;strokeWidth=1;fontSize=13;fontColor=#334155;align=left;verticalAlign=middle;spacing=10;spacingTop=6;spacingLeft=10;spacingRight=10;" value="&lt;b&gt;API Token 鉴权&lt;/b&gt;&lt;br&gt;识别当前调用用户，Token 只代表本人权限" vertex="1">
+          <mxGeometry height="68" width="318" x="806" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="m03" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;strokeColor=#e2e8f0;fillColor=#ffffff;strokeWidth=1;fontSize=13;fontColor=#334155;align=left;verticalAlign=middle;spacing=10;spacingTop=6;spacingLeft=10;spacingRight=10;" value="&lt;b&gt;服务级 + 接口级权限&lt;/b&gt;&lt;br&gt;先校验服务，再校验具体 API" vertex="1">
+          <mxGeometry height="68" width="318" x="458" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="m04" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;strokeColor=#e2e8f0;fillColor=#ffffff;strokeWidth=1;fontSize=13;fontColor=#334155;align=left;verticalAlign=middle;spacing=10;spacingTop=6;spacingLeft=10;spacingRight=10;" value="&lt;b&gt;用户字段映射&lt;/b&gt;&lt;br&gt;工号、邮箱、手机号等自动注入请求" vertex="1">
+          <mxGeometry height="68" width="318" x="806" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="m05" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;strokeColor=#e2e8f0;fillColor=#ffffff;strokeWidth=1;fontSize=13;fontColor=#334155;align=left;verticalAlign=middle;spacing=10;spacingTop=6;spacingLeft=10;spacingRight=10;" value="&lt;b&gt;第三方认证 / 缓存&lt;/b&gt;&lt;br&gt;服务级 Token、用户级 Token、Cookie 统一托管" vertex="1">
+          <mxGeometry height="68" width="318" x="458" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="m06" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;strokeColor=#e2e8f0;fillColor=#ffffff;strokeWidth=1;fontSize=13;fontColor=#334155;align=left;verticalAlign=middle;spacing=10;spacingTop=6;spacingLeft=10;spacingRight=10;" value="&lt;b&gt;重试 / 日志审计&lt;/b&gt;&lt;br&gt;Token 失效重试一次，调用日志脱敏可追溯" vertex="1">
+          <mxGeometry height="68" width="318" x="806" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="rHead" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;fontSize=24;fontColor=#0f172a;align=left;verticalAlign=middle;fontStyle=1;" value="被代理系统" vertex="1">
+          <mxGeometry height="32" width="180" x="1264" y="164" as="geometry" />
+        </mxCell>
+        <mxCell id="rSub" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;fontSize=13;fontColor=#64748b;align=left;verticalAlign=middle;" value="D1 / D2 / D3 / D4 ..." vertex="1">
+          <mxGeometry height="22" width="220" x="1264" y="197" as="geometry" />
+        </mxCell>
+        <mxCell id="dm1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;strokeColor=#e9d5ff;fillColor=#faf5ff;strokeWidth=1;fontSize=13;fontColor=#581c87;align=left;verticalAlign=middle;spacing=10;spacingTop=6;spacingLeft=10;spacingRight=10;" value="&lt;b&gt;模式一 · 固定接口直连&lt;/b&gt;&lt;br&gt;固定参数、无前置认证" vertex="1">
+          <mxGeometry height="70" width="244" x="1264" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="dm2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;strokeColor=#e9d5ff;fillColor=#faf5ff;strokeWidth=1;fontSize=13;fontColor=#581c87;align=left;verticalAlign=middle;spacing=10;spacingTop=6;spacingLeft=10;spacingRight=10;" value="&lt;b&gt;模式二 · 注入 A 用户字段&lt;/b&gt;&lt;br&gt;自动补入工号等字段" vertex="1">
+          <mxGeometry height="70" width="244" x="1264" y="344" as="geometry" />
+        </mxCell>
+        <mxCell id="dm3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;strokeColor=#e9d5ff;fillColor=#faf5ff;strokeWidth=1;fontSize=13;fontColor=#581c87;align=left;verticalAlign=middle;spacing=10;spacingTop=6;spacingLeft=10;spacingRight=10;" value="&lt;b&gt;模式三 · 服务级 Token&lt;/b&gt;&lt;br&gt;平台统一获取并缓存" vertex="1">
+          <mxGeometry height="70" width="244" x="1264" y="428" as="geometry" />
+        </mxCell>
+        <mxCell id="dm4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;strokeColor=#e9d5ff;fillColor=#faf5ff;strokeWidth=1;fontSize=13;fontColor=#581c87;align=left;verticalAlign=middle;spacing=10;spacingTop=6;spacingLeft=10;spacingRight=10;" value="&lt;b&gt;模式四 · 用户级绑定&lt;/b&gt;&lt;br&gt;每个用户独立凭证" vertex="1">
+          <mxGeometry height="70" width="244" x="1264" y="512" as="geometry" />
+        </mxCell>
+        <mxCell id="eL" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#64748b;strokeWidth=2;endArrow=block;endFill=1;fontSize=13;fontColor=#475569;" value="统一入口调用">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="364" y="390" as="sourcePoint" />
+            <mxPoint x="420" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eR" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#64748b;strokeWidth=2;endArrow=block;endFill=1;fontSize=13;fontColor=#475569;" value="代理真实调用">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1180" y="390" as="sourcePoint" />
+            <mxPoint x="1236" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bottom" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=16;strokeColor=#e2e8f0;fillColor=#ffffff;strokeWidth=1.2;fontSize=16;fontColor=#0f172a;align=left;verticalAlign=top;spacing=10;spacingTop=6;spacingLeft=10;spacingRight=10;" value="&lt;b&gt;汇报口径：这个系统解决什么问题&lt;/b&gt;" vertex="1">
+          <mxGeometry height="172" width="1236" x="300" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="v1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;strokeColor=#e2e8f0;fillColor=#f8fafc;strokeWidth=1;fontSize=12;fontColor=#334155;align=left;verticalAlign=middle;spacing=10;spacingTop=6;spacingLeft=10;spacingRight=10;" value="&lt;b&gt;接口统一收口&lt;/b&gt;&lt;br&gt;多系统不再散接" vertex="1">
+          <mxGeometry height="72" width="175" x="370" y="721" as="geometry" />
+        </mxCell>
+        <mxCell id="v2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;strokeColor=#e2e8f0;fillColor=#f8fafc;strokeWidth=1;fontSize=12;fontColor=#334155;align=left;verticalAlign=middle;spacing=10;spacingTop=6;spacingLeft=10;spacingRight=10;" value="&lt;b&gt;权限统一管控&lt;/b&gt;&lt;br&gt;服务级 + API 级" vertex="1">
+          <mxGeometry height="72" width="175" x="558" y="721" as="geometry" />
+        </mxCell>
+        <mxCell id="v3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;strokeColor=#e2e8f0;fillColor=#f8fafc;strokeWidth=1;fontSize=12;fontColor=#334155;align=left;verticalAlign=middle;spacing=10;spacingTop=6;spacingLeft=10;spacingRight=10;" value="&lt;b&gt;密钥集中托管&lt;/b&gt;&lt;br&gt;减少外泄风险" vertex="1">
+          <mxGeometry height="72" width="175" x="746" y="721" as="geometry" />
+        </mxCell>
+        <mxCell id="v4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;strokeColor=#e2e8f0;fillColor=#f8fafc;strokeWidth=1;fontSize=12;fontColor=#334155;align=left;verticalAlign=middle;spacing=10;spacingTop=6;spacingLeft=10;spacingRight=10;" value="&lt;b&gt;用户身份贯通&lt;/b&gt;&lt;br&gt;按 A Token 识别调用人" vertex="1">
+          <mxGeometry height="72" width="175" x="934" y="721" as="geometry" />
+        </mxCell>
+        <mxCell id="v5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;strokeColor=#e2e8f0;fillColor=#f8fafc;strokeWidth=1;fontSize=12;fontColor=#334155;align=left;verticalAlign=middle;spacing=10;spacingTop=6;spacingLeft=10;spacingRight=10;" value="&lt;b&gt;配置化扩展&lt;/b&gt;&lt;br&gt;新增接口少改代码" vertex="1">
+          <mxGeometry height="72" width="175" x="1122" y="721" as="geometry" />
+        </mxCell>
+        <mxCell id="v6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;strokeColor=#e2e8f0;fillColor=#f8fafc;strokeWidth=1;fontSize=12;fontColor=#334155;align=left;verticalAlign=middle;spacing=10;spacingTop=6;spacingLeft=10;spacingRight=10;" value="&lt;b&gt;审计可追溯&lt;/b&gt;&lt;br&gt;日志脱敏、异常可排查" vertex="1">
+          <mxGeometry height="72" width="175" x="1310" y="721" as="geometry" />
+        </mxCell>
+        <mxCell id="foot1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;fontSize=12;fontColor=#64748b;align=left;verticalAlign=middle;" value="图示基于《第三方服务代理》需求文档整理，面向领导汇报场景，突出平台治理能力而非底层实现细节。" vertex="1">
+          <mxGeometry height="24" width="1250" x="64" y="858" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="clean_page_2" name="02 接入与调用链路">
+    <mxGraphModel dx="2061" dy="1011" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bg2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8fafc;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="900" width="1600" as="geometry" />
+        </mxCell>
+        <mxCell id="bar2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0f172a;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="104" width="1600" as="geometry" />
+        </mxCell>
+        <mxCell id="title2" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;fontSize=28;fontColor=#ffffff;align=left;verticalAlign=middle;fontStyle=1;" value="第三方服务代理：接入配置与调用链路" vertex="1">
+          <mxGeometry height="40" width="900" x="64" y="24" as="geometry" />
+        </mxCell>
+        <mxCell id="sub2" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;fontSize=14;fontColor=#cbd5e1;align=left;verticalAlign=middle;" value="管理员配置第三方服务与接口；用户使用 A 系统 API Token 调用；平台后台完成转发、认证、缓存重试和审计" vertex="1">
+          <mxGeometry height="26" width="1100" x="66" y="64" as="geometry" />
+        </mxCell>
+        <mxCell id="dept2" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;fontSize=13;fontColor=#cbd5e1;align=right;verticalAlign=middle;fontStyle=1;" value="服务事业群｜信息管理中心｜系统管理部" vertex="1">
+          <mxGeometry height="24" width="350" x="1180" y="29" as="geometry" />
+        </mxCell>
+        <mxCell id="sec1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;fontSize=21;fontColor=#0f172a;align=left;verticalAlign=middle;fontStyle=1;" value="01 管理端：配置接入" vertex="1">
+          <mxGeometry height="30" width="360" x="64" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="s01" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=14;strokeColor=#e2e8f0;fillColor=#ffffff;strokeWidth=1.2;fontSize=13;fontColor=#334155;align=left;verticalAlign=middle;spacing=10;spacingTop=6;spacingLeft=10;spacingRight=10;" value="&lt;b&gt;1 注册代理服务&lt;/b&gt;&lt;br&gt;服务名称 / 服务标识 / 代理后缀 / 启停" vertex="1">
+          <mxGeometry height="105" width="335" x="64" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="s02" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=14;strokeColor=#e2e8f0;fillColor=#ffffff;strokeWidth=1.2;fontSize=13;fontColor=#334155;align=left;verticalAlign=middle;spacing=10;spacingTop=6;spacingLeft=10;spacingRight=10;" value="&lt;b&gt;2 维护代理接口&lt;/b&gt;&lt;br&gt;真实 URL / Method / Header / Query / Body" vertex="1">
+          <mxGeometry height="105" width="335" x="442" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="s03" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=14;strokeColor=#e2e8f0;fillColor=#ffffff;strokeWidth=1.2;fontSize=13;fontColor=#334155;align=left;verticalAlign=middle;spacing=10;spacingTop=6;spacingLeft=10;spacingRight=10;" value="&lt;b&gt;3 配置安全规则&lt;/b&gt;&lt;br&gt;权限 / 用户字段映射 / 第三方认证 / 缓存" vertex="1">
+          <mxGeometry height="105" width="335" x="820" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="s04" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=14;strokeColor=#e2e8f0;fillColor=#ffffff;strokeWidth=1.2;fontSize=13;fontColor=#334155;align=left;verticalAlign=middle;spacing=10;spacingTop=6;spacingLeft=10;spacingRight=10;" value="&lt;b&gt;4 测试发布&lt;/b&gt;&lt;br&gt;真实接口测试 / Token 测试 / 模拟用户测试" vertex="1">
+          <mxGeometry height="105" width="335" x="1198" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="stepEdge0" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#64748b;strokeWidth=2;endArrow=block;endFill=1;fontSize=13;fontColor=#475569;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="399" y="222" as="sourcePoint" />
+            <mxPoint x="442" y="222" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="stepEdge1" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#64748b;strokeWidth=2;endArrow=block;endFill=1;fontSize=13;fontColor=#475569;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="777" y="222" as="sourcePoint" />
+            <mxPoint x="820" y="222" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="stepEdge2" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#64748b;strokeWidth=2;endArrow=block;endFill=1;fontSize=13;fontColor=#475569;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1155" y="222" as="sourcePoint" />
+            <mxPoint x="1198" y="222" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sec2" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;fontSize=21;fontColor=#0f172a;align=left;verticalAlign=middle;fontStyle=1;" value="02 运行时：一次调用，后台多步处理" vertex="1">
+          <mxGeometry height="30" width="450" x="64" y="313" as="geometry" />
+        </mxCell>
+        <mxCell id="runPanel" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=16;strokeColor=#e2e8f0;fillColor=#ffffff;strokeWidth=1.2;fontSize=12;fontColor=#334155;align=left;verticalAlign=top;spacing=10;spacingTop=6;spacingLeft=10;spacingRight=10;" value="" vertex="1">
+          <mxGeometry height="248" width="1472" x="64" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="r1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;strokeColor=#e2e8f0;fillColor=#f8fafc;strokeWidth=1;fontSize=12;fontColor=#334155;align=center;verticalAlign=middle;spacing=10;spacingTop=6;spacingLeft=10;spacingRight=10;" value="&lt;b&gt;用户/应用&lt;/b&gt;&lt;br&gt;调用代理地址" vertex="1">
+          <mxGeometry height="116" width="120" x="92" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="runEdge0" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#64748b;strokeWidth=2;endArrow=block;endFill=1;fontSize=13;fontColor=#475569;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="212" y="468" as="sourcePoint" />
+            <mxPoint x="253" y="468" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;strokeColor=#bfdbfe;fillColor=#eff6ff;strokeWidth=1;fontSize=12;fontColor=#334155;align=center;verticalAlign=middle;spacing=10;spacingTop=6;spacingLeft=10;spacingRight=10;" value="&lt;b&gt;代理入口&lt;/b&gt;&lt;br&gt;统一收口" vertex="1">
+          <mxGeometry height="116" width="120" x="253" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="runEdge1" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#64748b;strokeWidth=2;endArrow=block;endFill=1;fontSize=13;fontColor=#475569;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="373" y="468" as="sourcePoint" />
+            <mxPoint x="414" y="468" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;strokeColor=#e2e8f0;fillColor=#f8fafc;strokeWidth=1;fontSize=12;fontColor=#334155;align=center;verticalAlign=middle;spacing=10;spacingTop=6;spacingLeft=10;spacingRight=10;" value="&lt;b&gt;Token鉴权&lt;/b&gt;&lt;br&gt;解析 A 用户" vertex="1">
+          <mxGeometry height="116" width="120" x="414" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="runEdge2" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#64748b;strokeWidth=2;endArrow=block;endFill=1;fontSize=13;fontColor=#475569;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="534" y="468" as="sourcePoint" />
+            <mxPoint x="575" y="468" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;strokeColor=#e2e8f0;fillColor=#f8fafc;strokeWidth=1;fontSize=12;fontColor=#334155;align=center;verticalAlign=middle;spacing=10;spacingTop=6;spacingLeft=10;spacingRight=10;" value="&lt;b&gt;路由配置&lt;/b&gt;&lt;br&gt;读取接口配置" vertex="1">
+          <mxGeometry height="116" width="120" x="575" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="runEdge3" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#64748b;strokeWidth=2;endArrow=block;endFill=1;fontSize=13;fontColor=#475569;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="695" y="468" as="sourcePoint" />
+            <mxPoint x="736" y="468" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;strokeColor=#e2e8f0;fillColor=#f8fafc;strokeWidth=1;fontSize=12;fontColor=#334155;align=center;verticalAlign=middle;spacing=10;spacingTop=6;spacingLeft=10;spacingRight=10;" value="&lt;b&gt;权限校验&lt;/b&gt;&lt;br&gt;服务 + API" vertex="1">
+          <mxGeometry height="116" width="120" x="736" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="runEdge4" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#64748b;strokeWidth=2;endArrow=block;endFill=1;fontSize=13;fontColor=#475569;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="856" y="468" as="sourcePoint" />
+            <mxPoint x="897" y="468" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;strokeColor=#bfdbfe;fillColor=#eff6ff;strokeWidth=1;fontSize=12;fontColor=#334155;align=center;verticalAlign=middle;spacing=10;spacingTop=6;spacingLeft=10;spacingRight=10;" value="&lt;b&gt;请求构造&lt;/b&gt;&lt;br&gt;字段注入" vertex="1">
+          <mxGeometry height="116" width="120" x="897" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="runEdge5" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#64748b;strokeWidth=2;endArrow=block;endFill=1;fontSize=13;fontColor=#475569;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1017" y="468" as="sourcePoint" />
+            <mxPoint x="1058" y="468" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;strokeColor=#bfdbfe;fillColor=#eff6ff;strokeWidth=1;fontSize=12;fontColor=#334155;align=center;verticalAlign=middle;spacing=10;spacingTop=6;spacingLeft=10;spacingRight=10;" value="&lt;b&gt;认证缓存&lt;/b&gt;&lt;br&gt;Token/Cookie" vertex="1">
+          <mxGeometry height="116" width="120" x="1058" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="runEdge6" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#64748b;strokeWidth=2;endArrow=block;endFill=1;fontSize=13;fontColor=#475569;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1178" y="468" as="sourcePoint" />
+            <mxPoint x="1219" y="468" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;strokeColor=#e2e8f0;fillColor=#f8fafc;strokeWidth=1;fontSize=12;fontColor=#334155;align=center;verticalAlign=middle;spacing=10;spacingTop=6;spacingLeft=10;spacingRight=10;" value="&lt;b&gt;第三方接口&lt;/b&gt;&lt;br&gt;真实调用" vertex="1">
+          <mxGeometry height="116" width="120" x="1219" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="runEdge7" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#64748b;strokeWidth=2;endArrow=block;endFill=1;fontSize=13;fontColor=#475569;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1339" y="468" as="sourcePoint" />
+            <mxPoint x="1380" y="468" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;strokeColor=#e2e8f0;fillColor=#f8fafc;strokeWidth=1;fontSize=12;fontColor=#334155;align=center;verticalAlign=middle;spacing=10;spacingTop=6;spacingLeft=10;spacingRight=10;" value="&lt;b&gt;日志审计&lt;/b&gt;&lt;br&gt;脱敏记录" vertex="1">
+          <mxGeometry height="116" width="120" x="1380" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="callout" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;strokeColor=#e2e8f0;fillColor=#f1f5f9;strokeWidth=1;fontSize=14;fontColor=#334155;align=center;verticalAlign=middle;spacing=10;spacingTop=6;spacingLeft=10;spacingRight=10;" value="调用方只感知一次代理调用；第三方认证、字段补齐、Token 缓存、失效重试由平台统一托管。" vertex="1">
+          <mxGeometry height="40" width="1416" x="92" y="545" as="geometry" />
+        </mxCell>
+        <mxCell id="sec3" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;fontSize=21;fontColor=#0f172a;align=left;verticalAlign=middle;fontStyle=1;" value="03 代理模式：覆盖不同第三方接入形态" vertex="1">
+          <mxGeometry height="30" width="500" x="64" y="646" as="geometry" />
+        </mxCell>
+        <mxCell id="pm1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=14;strokeColor=#e2e8f0;fillColor=#ffffff;strokeWidth=1.2;fontSize=13;fontColor=#334155;align=left;verticalAlign=middle;spacing=10;spacingTop=6;spacingLeft=10;spacingRight=10;" value="&lt;b&gt;模式一：固定接口直连&lt;/b&gt;&lt;br&gt;固定参数 / 公共数据 / 无用户绑定" vertex="1">
+          <mxGeometry height="104" width="335" x="64" y="696" as="geometry" />
+        </mxCell>
+        <mxCell id="pm2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=14;strokeColor=#e2e8f0;fillColor=#ffffff;strokeWidth=1.2;fontSize=13;fontColor=#334155;align=left;verticalAlign=middle;spacing=10;spacingTop=6;spacingLeft=10;spacingRight=10;" value="&lt;b&gt;模式二：A 用户字段注入&lt;/b&gt;&lt;br&gt;通过 A Token 识别当前用户并补字段" vertex="1">
+          <mxGeometry height="104" width="335" x="442" y="696" as="geometry" />
+        </mxCell>
+        <mxCell id="pm3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=14;strokeColor=#e2e8f0;fillColor=#ffffff;strokeWidth=1.2;fontSize=13;fontColor=#334155;align=left;verticalAlign=middle;spacing=10;spacingTop=6;spacingLeft=10;spacingRight=10;" value="&lt;b&gt;模式三：服务级第三方 Token&lt;/b&gt;&lt;br&gt;按服务缓存 Token，失效后重取并重试" vertex="1">
+          <mxGeometry height="104" width="335" x="820" y="696" as="geometry" />
+        </mxCell>
+        <mxCell id="pm4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=14;strokeColor=#e2e8f0;fillColor=#ffffff;strokeWidth=1.2;fontSize=13;fontColor=#334155;align=left;verticalAlign=middle;spacing=10;spacingTop=6;spacingLeft=10;spacingRight=10;" value="&lt;b&gt;模式四：用户级账号绑定&lt;/b&gt;&lt;br&gt;每个用户独立绑定 Token/Cookie/密钥" vertex="1">
+          <mxGeometry height="104" width="335" x="1198" y="696" as="geometry" />
+        </mxCell>
+        <mxCell id="combo" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;strokeColor=#e9d5ff;fillColor=#faf5ff;strokeWidth=1;fontSize=14;fontColor=#581c87;align=center;verticalAlign=middle;spacing=10;spacingTop=6;spacingLeft=10;spacingRight=10;" value="组合关系：模式二可叠加模式三或四；服务级 Token 与用户级绑定通常按场景二选一。" vertex="1">
+          <mxGeometry height="42" width="1472" x="64" y="826" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
