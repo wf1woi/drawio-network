@@ -1,0 +1,145 @@
+<mxfile host="app.diagrams.net" agent="ZCode">
+  <diagram name="代理服务架构" id="arch-2026-06">
+    <mxGraphModel dx="2061" dy="977" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=26;fontStyle=1;fontColor=#006CAD;fontFamily=微软雅黑;" value="第三方代理服务架构图" vertex="1">
+          <mxGeometry height="44" width="840" x="380" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#595959;fontFamily=微软雅黑;" value="统一接口服务  ·  统一接口授权  ·  按权限调用  ·  代理Token数据请求  |  2026年6月" vertex="1">
+          <mxGeometry height="22" width="840" x="380" y="64" as="geometry" />
+        </mxCell>
+        <mxCell id="line1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008ABA;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="3" width="320" x="640" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="laneA" parent="1" style="swimlane;startSize=40;fillColor=#F2F8FC;strokeColor=#5B9BD5;fontStyle=1;fontSize=14;fontColor=#006CAD;rounded=1;arcSize=6;swimlaneFillColor=#F2F8FC;fontFamily=微软雅黑;" value="接入层 · 用户与集成方" vertex="1">
+          <mxGeometry height="560" width="320" x="40" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="a_agent" parent="laneA" style="rounded=1;whiteSpace=wrap;html=1;arcSize=14;fillColor=#DDEBF7;strokeColor=#5B9BD5;fontSize=13;fontFamily=微软雅黑;fontColor=#1F3864;align=center;verticalAlign=middle;" value="AI Agent 服务" vertex="1">
+          <mxGeometry height="60" width="220" x="50" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="a_skill" parent="laneA" style="rounded=1;whiteSpace=wrap;html=1;arcSize=14;fillColor=#DDEBF7;strokeColor=#5B9BD5;fontSize=13;fontFamily=微软雅黑;fontColor=#1F3864;align=center;verticalAlign=middle;" value="AI Skill 服务" vertex="1">
+          <mxGeometry height="60" width="220" x="50" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="a_mcp" parent="laneA" style="rounded=1;whiteSpace=wrap;html=1;arcSize=14;fillColor=#DDEBF7;strokeColor=#5B9BD5;fontSize=13;fontFamily=微软雅黑;fontColor=#1F3864;align=center;verticalAlign=middle;" value="MCP 服务" vertex="1">
+          <mxGeometry height="60" width="220" x="50" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="a_user" parent="laneA" style="rounded=1;whiteSpace=wrap;html=1;arcSize=14;fillColor=#DDEBF7;strokeColor=#5B9BD5;fontSize=13;fontFamily=微软雅黑;fontColor=#1F3864;align=center;verticalAlign=middle;" value="非技术人员&#xa;（封装为业务 Skill）" vertex="1">
+          <mxGeometry height="70" width="220" x="50" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="a_note" parent="laneA" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#7F7F7F;fontStyle=2;fontFamily=微软雅黑;" value="用户只需持有代理 Token，&#xa;无需各系统原始认证凭据" vertex="1">
+          <mxGeometry height="50" width="260" x="30" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="laneB" parent="1" style="swimlane;startSize=40;fillColor=#EAF3FA;strokeColor=#008ABA;fontStyle=1;fontSize=14;fontColor=#FFFFFF;rounded=1;arcSize=6;swimlaneFillColor=#EAF3FA;fontFamily=微软雅黑;" value="第三方代理服务 · 统一接口服务" vertex="1">
+          <mxGeometry height="560" width="500" x="400" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="b_core" parent="laneB" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#008ABA;strokeColor=#00557A;fontSize=14;fontStyle=1;fontColor=#FFFFFF;align=center;verticalAlign=middle;fontFamily=微软雅黑;shadow=1;" value="统一接口服务&#xa;──────────────&#xa;· 统一接口授权&#xa;· 按用户权限调用&#xa;· 代理 Token 数据请求&#xa;· 统一管理与监控" vertex="1">
+          <mxGeometry height="150" width="260" x="120" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b_new_label" parent="laneB" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=#ED7D31;fontFamily=微软雅黑;" value="本月新增功能（高亮）" vertex="1">
+          <mxGeometry height="22" width="460" x="20" y="225" as="geometry" />
+        </mxCell>
+        <mxCell id="b_doc" parent="laneB" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#FFF0DC;strokeColor=#ED7D31;strokeWidth=2;fontSize=12;fontFamily=微软雅黑;fontColor=#843C0C;align=center;verticalAlign=middle;shadow=1;" value="① API 文档管理&#xa;（已完成）" vertex="1">
+          <mxGeometry height="60" width="215" x="20" y="255" as="geometry" />
+        </mxCell>
+        <mxCell id="b_ds" parent="laneB" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#FFF0DC;strokeColor=#ED7D31;strokeWidth=2;fontSize=12;fontFamily=微软雅黑;fontColor=#843C0C;align=center;verticalAlign=middle;shadow=1;" value="② API 数据源管理&#xa;（已完成）" vertex="1">
+          <mxGeometry height="60" width="235" x="245" y="255" as="geometry" />
+        </mxCell>
+        <mxCell id="b_wx" parent="laneB" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#FFF0DC;strokeColor=#ED7D31;strokeWidth=2;fontSize=12;fontFamily=微软雅黑;fontColor=#843C0C;align=center;verticalAlign=middle;shadow=1;" value="③ 企微消息推送管理（已完成）&#xa;智能机器人 / 企微应用 / Webhook" vertex="1">
+          <mxGeometry height="60" width="305" x="20" y="325" as="geometry" />
+        </mxCell>
+        <mxCell id="b_mail" parent="laneB" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#FFF8E6;strokeColor=#ED7D31;strokeColor=#ED7D31;strokeWidth=2;fontSize=12;fontFamily=微软雅黑;fontColor=#843C0C;align=center;verticalAlign=middle;dashed=1;shadow=1;" value="④ 邮件管理&#xa;发送/接收/查询&#xa;（待集成·进行中）" vertex="1">
+          <mxGeometry height="60" width="145" x="335" y="325" as="geometry" />
+        </mxCell>
+        <mxCell id="b_pro1" parent="laneB" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;fillColor=#E2EFDA;strokeColor=#70AD47;fontSize=11;fontFamily=微软雅黑;fontColor=#375623;align=center;verticalAlign=middle;shadow=0;" value="✔ 优点 1&#xa;统一接口服务，便于集成与统一管理" vertex="1">
+          <mxGeometry height="55" width="225" x="20" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="b_pro2" parent="laneB" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;fillColor=#E2EFDA;strokeColor=#70AD47;fontSize=11;fontFamily=微软雅黑;fontColor=#375623;align=center;verticalAlign=middle;shadow=0;" value="✔ 优点 2&#xa;敏感数据安全，不暴露各系统认证信息" vertex="1">
+          <mxGeometry height="55" width="225" x="255" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="laneC" parent="1" style="swimlane;startSize=40;fillColor=#F2F8FC;strokeColor=#5B9BD5;fontStyle=1;fontSize=14;fontColor=#006CAD;rounded=1;arcSize=6;swimlaneFillColor=#F2F8FC;fontFamily=微软雅黑;" value="已集成的业务系统接口" vertex="1">
+          <mxGeometry height="560" width="620" x="940" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="c_oa" parent="laneC" style="rounded=1;whiteSpace=wrap;html=1;arcSize=14;fillColor=#DEEBF7;strokeColor=#9DC3E6;fontSize=12;fontFamily=微软雅黑;fontColor=#1F3864;align=center;verticalAlign=middle;" value="OA 会议数据接口" vertex="1">
+          <mxGeometry height="48" width="170" x="30" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c_leave" parent="laneC" style="rounded=1;whiteSpace=wrap;html=1;arcSize=14;fillColor=#DEEBF7;strokeColor=#9DC3E6;fontSize=12;fontFamily=微软雅黑;fontColor=#1F3864;align=center;verticalAlign=middle;" value="假勤数据接口" vertex="1">
+          <mxGeometry height="48" width="170" x="220" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c_todo" parent="laneC" style="rounded=1;whiteSpace=wrap;html=1;arcSize=14;fillColor=#DEEBF7;strokeColor=#9DC3E6;fontSize=12;fontFamily=微软雅黑;fontColor=#1F3864;align=center;verticalAlign=middle;" value="待办与流程查询接口" vertex="1">
+          <mxGeometry height="48" width="180" x="410" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c_erp" parent="laneC" style="rounded=1;whiteSpace=wrap;html=1;arcSize=14;fillColor=#DEEBF7;strokeColor=#9DC3E6;fontSize=12;fontFamily=微软雅黑;fontColor=#1F3864;align=center;verticalAlign=middle;" value="ERP 单据与报表查询" vertex="1">
+          <mxGeometry height="48" width="170" x="30" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="c_fone" parent="laneC" style="rounded=1;whiteSpace=wrap;html=1;arcSize=14;fillColor=#DEEBF7;strokeColor=#9DC3E6;fontSize=12;fontFamily=微软雅黑;fontColor=#1F3864;align=center;verticalAlign=middle;" value="FONE 接口" vertex="1">
+          <mxGeometry height="48" width="170" x="220" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="c_other" parent="laneC" style="rounded=1;whiteSpace=wrap;html=1;arcSize=14;fillColor=#DEEBF7;strokeColor=#9DC3E6;fontSize=12;fontFamily=微软雅黑;fontColor=#1F3864;align=center;verticalAlign=middle;" value="其他服务接口…" vertex="1">
+          <mxGeometry height="48" width="180" x="410" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="c_wx" parent="laneC" style="rounded=1;whiteSpace=wrap;html=1;arcSize=14;fillColor=#FFF0DC;strokeColor=#ED7D31;strokeWidth=2;fontSize=12;fontFamily=微软雅黑;fontColor=#843C0C;align=center;verticalAlign=middle;shadow=1;" value="企微消息推送接口&#xa;★ 本月新增" vertex="1">
+          <mxGeometry height="55" width="220" x="120" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="c_mail" parent="laneC" style="rounded=1;whiteSpace=wrap;html=1;arcSize=14;fillColor=#FFF8E6;strokeColor=#ED7D31;strokeWidth=2;fontSize=12;fontFamily=微软雅黑;fontColor=#843C0C;align=center;verticalAlign=middle;dashed=1;shadow=1;" value="邮件管理接口&#xa;★ 本月新增" vertex="1">
+          <mxGeometry height="55" width="220" x="360" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="c_legend_label" parent="laneC" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontColor=#595959;fontFamily=微软雅黑;" value="图例" vertex="1">
+          <mxGeometry height="20" width="60" x="30" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="c_leg1" parent="laneC" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#008ABA;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="12" width="16" x="30" y="315" as="geometry" />
+        </mxCell>
+        <mxCell id="c_leg1t" parent="laneC" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontColor=#595959;fontFamily=微软雅黑;" value="核心代理服务" vertex="1">
+          <mxGeometry height="20" width="110" x="50" y="311" as="geometry" />
+        </mxCell>
+        <mxCell id="c_leg2" parent="laneC" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF0DC;strokeColor=#ED7D31;strokeWidth=1.5;" value="" vertex="1">
+          <mxGeometry height="12" width="16" x="30" y="335" as="geometry" />
+        </mxCell>
+        <mxCell id="c_leg2t" parent="laneC" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontColor=#595959;fontFamily=微软雅黑;" value="本月新增 / 已完成" vertex="1">
+          <mxGeometry height="20" width="130" x="50" y="331" as="geometry" />
+        </mxCell>
+        <mxCell id="c_leg3" parent="laneC" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF8E6;strokeColor=#ED7D31;strokeWidth=1.5;dashed=1;" value="" vertex="1">
+          <mxGeometry height="12" width="16" x="30" y="355" as="geometry" />
+        </mxCell>
+        <mxCell id="c_leg3t" parent="laneC" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontColor=#595959;fontFamily=微软雅黑;" value="进行中 / 待集成" vertex="1">
+          <mxGeometry height="20" width="130" x="50" y="351" as="geometry" />
+        </mxCell>
+        <mxCell id="c_leg4" parent="laneC" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E2EFDA;strokeColor=#70AD47;" value="" vertex="1">
+          <mxGeometry height="12" width="16" x="280" y="315" as="geometry" />
+        </mxCell>
+        <mxCell id="c_leg4t" parent="laneC" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontColor=#595959;fontFamily=微软雅黑;" value="服务核心优点" vertex="1">
+          <mxGeometry height="20" width="130" x="300" y="311" as="geometry" />
+        </mxCell>
+        <mxCell id="c_leg5" parent="laneC" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DEEBF7;strokeColor=#9DC3E6;" value="" vertex="1">
+          <mxGeometry height="12" width="16" x="280" y="335" as="geometry" />
+        </mxCell>
+        <mxCell id="c_leg5t" parent="laneC" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontColor=#595959;fontFamily=微软雅黑;" value="已集成业务系统" vertex="1">
+          <mxGeometry height="20" width="130" x="300" y="331" as="geometry" />
+        </mxCell>
+        <mxCell id="e_a1" edge="1" parent="1" source="a_agent" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#5B9BD5;strokeWidth=2;endArrow=classic;endFill=1;startArrow=classic;startFill=1;fontFamily=微软雅黑;" target="b_core">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_a2" edge="1" parent="1" source="a_skill" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#5B9BD5;strokeWidth=2;endArrow=classic;endFill=1;startArrow=classic;startFill=1;fontFamily=微软雅黑;" target="b_core">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_a3" edge="1" parent="1" source="a_mcp" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#5B9BD5;strokeWidth=2;endArrow=classic;endFill=1;startArrow=classic;startFill=1;fontFamily=微软雅黑;" target="b_core">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_a4" edge="1" parent="1" source="a_user" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#5B9BD5;strokeWidth=2;endArrow=classic;endFill=1;startArrow=classic;startFill=1;fontFamily=微软雅黑;" target="b_core">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_c1" edge="1" parent="1" source="b_core" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.4;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#008ABA;strokeWidth=2.5;endArrow=classic;endFill=1;fontSize=11;fontColor=#006CAD;fontFamily=微软雅黑;labelBackgroundColor=#FFFFFF;" target="c_oa" value="统一 Token 授权调用">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_c2" edge="1" parent="1" source="b_core" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.4;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#008ABA;strokeWidth=2.5;endArrow=classic;endFill=1;fontFamily=微软雅黑;" target="c_erp">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="summary" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;fillColor=#006CAD;strokeColor=#00557A;fontSize=14;fontStyle=1;fontColor=#FFFFFF;align=center;verticalAlign=middle;fontFamily=微软雅黑;shadow=1;" value="📍 当前代理服务是「AI 智能平台」的数据管理实现层 —— 将分散的系统功能整合为统一接口服务，为 AI 全自动化管理提供数据底座。" vertex="1">
+          <mxGeometry height="56" width="1520" x="40" y="710" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
